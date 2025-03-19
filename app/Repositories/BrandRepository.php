@@ -16,7 +16,7 @@ class BrandRepository implements BrandRepositoryInterface
 
     public function all()
     {
-        return Brands::all();
+        return Brand::all(); //edit code
     }
 
     public function delete($id)
